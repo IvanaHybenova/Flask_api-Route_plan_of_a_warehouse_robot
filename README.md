@@ -19,7 +19,9 @@ Goal of this project is to find the optimal route plan of a robot under the cert
 3. Robot can visit on one route through the warehouse only two required locations, so other processes don't have to wait too long for the    next product to be packed.
 
 
-Project delivery: Python script executing locally hosted flask api, that takes in csv file with locations that needs to be visited, calculate the optimal route plan and provide downloadable zipped .xlsx file with the route plan.
+Project delivery: 
+
+Python script executing locally hosted flask api, that takes in csv file with locations that needs to be visited, calculate the optimal route plan and provide downloadable zipped .xlsx file with the route plan.
 
 Files: 
 
@@ -31,7 +33,9 @@ flask_route_api.py - Python scirpt with the application
 
 locations.csv - Locations robot needs to visit, in order to pick the products from them
 
-Instructions: Download locations.csv and flask_route_api.py.
+Instructions: 
+
+Download locations.csv and flask_route_api.py.
 
 Through your command line navigate to the folder you are storing these files. Make sure you have python path in your enviroment variables and run command python flask_route_api.py
 
