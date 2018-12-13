@@ -14,6 +14,8 @@ Goal of this project is to find the optimal route plan of a robot under the cert
 2. Robot can pick up products from the next required location as well, if it takes less steps than returning back from the first location
    and then go again to the next one.
    
+3. If the robot passes through the entrance location on his way to the next required location, he stops in the entrance with product from the first location and route to the next required location is considered as a new one.
+   
 3. Robot can visit on one route through the warehouse only two required locations, so other processes don't have to wait too long for the    next product to be packed.
 
 
