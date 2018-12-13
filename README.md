@@ -25,7 +25,7 @@ Files:
 
 warehouse_plan.jpg - Picture of the warehouse and locations.
 
-rewards.jpg - Rewards plan used for Q-learning. Thanks to this matrix robot basically knows, where he can go from given location.
+rewards.jpg - Rewards plan used for Q-learning. Thanks to this matrix robot basically knows, where it can go from current location.
 
 flask_route_api.py - Python scirpt with the application
 
